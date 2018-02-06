@@ -61,7 +61,7 @@ box-shadow: inset 3px 3px 3px #fff2af;*/
   box-shadow: 0 5px 0 #e7930a;
   color: #f6251e;
   text-align: center;
-  font-size: 55rpx;
+  font-size: 50rpx;
   font-weight: bolder;
   line-height: 150rpx;
 }

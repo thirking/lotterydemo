@@ -119,7 +119,7 @@ Page({
       indexSelect++;
       //这里我只是简单粗暴用y=30*x+200函数做的处理.可根据自己的需求改变转盘速度
       i += 30;
-      if (i > 1000) {
+      if (i > Math.random()*999+800) {
         //去除循环
         clearInterval(timer)
         //获奖提示
@@ -141,6 +141,6 @@ Page({
       _this.setData({
         indexSelect: indexSelect
       })
-    }, (200 + i))
+    }, (150 + i))
   }
 })
